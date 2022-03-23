@@ -1,0 +1,45 @@
+@font-face {
+    font-family: starcraft;
+    src: url(../fonts/Starcraft\ Normal.ttf);
+}
+
+@font-face {
+    font-family: avenger;
+    src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER.ttf);
+}
+
+main {
+    display: flex;
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.video {
+   border: solid 2px black;
+   margin-bottom: 1em;
+}
+
+.titulo-video {
+    font-family: avenger;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 480px;
+    font-size: 2em;
+    padding:0.5em 0em ;
+}
+
+footer {
+    height: 10vh;
+    background: black;
+}
+
+footer p {
+    font-size: 1.5em;
+    font-family: avenger;
+    text-align: center;
+    color: darkgrey;
+    padding-top: 1.2em;
+}
