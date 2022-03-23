@@ -43,3 +43,14 @@ footer p {
     color: darkgrey;
     padding-top: 1.2em;
 }
+
+@media screen and (max-width: 500px) {
+    iframe {
+        width: 300px;
+        height: 225px;
+    }
+
+    .titulo-video {
+        width: 300px;
+    }
+}
